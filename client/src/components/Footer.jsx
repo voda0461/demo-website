@@ -100,7 +100,7 @@ export default function Footer() {
             </h3>
             <ul className="space-y-2.5 text-sm">
               <li>
-                <Link to="/features" className="hover:text-blue-400 transition-colors">
+                <Link to="/features#1" className="hover:text-blue-400 transition-colors">
                   Features
                 </Link>
               </li>

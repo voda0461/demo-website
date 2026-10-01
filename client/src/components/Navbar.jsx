@@ -47,9 +47,9 @@ export default function Navbar() {
               <span>Home</span>
             </NavLink>
 
-            <NavLink to="/explore" className={desktopLinkStyle}>
+            <NavLink to="/features" className={desktopLinkStyle}>
               <Compass size={18} />
-              <span>Explore</span>
+              <span>Features</span>
             </NavLink>
 
             <NavLink to="/notifications" className={desktopLinkStyle}>
@@ -92,9 +92,9 @@ export default function Navbar() {
             <span>Home</span>
           </NavLink>
 
-          <NavLink to="/explore" className={mobileLinkStyle} onClick={closeMenu}>
+          <NavLink to="/features" className={mobileLinkStyle} onClick={closeMenu}>
             <Compass size={20} />
-            <span>Explore</span>
+            <span>Features</span>
           </NavLink>
 
           <NavLink to="/notifications" className={mobileLinkStyle} onClick={closeMenu}>
